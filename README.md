@@ -338,9 +338,8 @@ Also discuss organizational architecture: CRM owners own system-of-record contra
 
 The hardest problem is not choosing an LLM. It is creating a controlled decision system where model reasoning, enterprise data, business policy, side effects, human judgment and feedback can evolve independently without losing auditability.
 
-## 29. Interview talking points
-
-Be ready to answer: Why agent vs workflow? What happens when CRM is down? How do you prevent prompt injection? How do you guarantee DNC? How do you avoid duplicate opportunities? How do you evaluate a new model? How do you handle ten million leads/day? How do you control cost? How do you replay a decision six months later? How do you isolate tenants? What evidence can an AE inspect? What would force you to roll back a model? Which components must remain deterministic?
+## 29. Questions
+Why agent vs workflow? What happens when CRM is down? How do you prevent prompt injection? How do you guarantee DNC? How do you avoid duplicate opportunities? How do you evaluate a new model? How do you handle ten million leads/day? How do you control cost? How do you replay a decision six months later? How do you isolate tenants? What evidence can an AE inspect? What would force you to roll back a model? Which components must remain deterministic?
 
 ## 30. Disclaimer
 
