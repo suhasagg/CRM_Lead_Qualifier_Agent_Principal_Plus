@@ -1,0 +1,10 @@
+services:
+  java-crm-service:
+    build: ./java-crm-service
+    ports: ["8080:8080"]
+  python-agent:
+    build: ./python-agent
+    ports: ["8000:8000"]
+    environment:
+      CRM_BASE_URL: http://java-crm-service:8080
+    depends_on: [java-crm-service]
