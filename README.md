@@ -330,9 +330,9 @@ make java-test
 
 The next implementation increments should be: PostgreSQL workflow/audit persistence; Redis cache; real Salesforce/Dynamics adapter; Kafka/SQS ingestion; transactional outbox; OpenTelemetry; Prometheus/Grafana; OPA/Cedar-style authorization; secrets manager; actual LLM planner with JSON/function calling; prompt registry; evaluation harness; replay service; human-review UI; rate-limit/circuit-breaker library; Kubernetes/Helm/Terraform; and canary model routing.
 
-## 28. Principal-level interview discussion
+## 28. Principal-level discussion
 
-A principal engineer should be prepared to explain **why an agent is needed at all**. If qualification is entirely structured and deterministic, a rules/ML service is cheaper and safer. An agent earns its complexity when evidence is heterogeneous, tools must be selected dynamically, notes/documents require semantic interpretation, and workflows vary by context.
+Explanation of **why an agent is needed at all**. If qualification is entirely structured and deterministic, a rules/ML service is cheaper and safer. An agent earns its complexity when evidence is heterogeneous, tools must be selected dynamically, notes/documents require semantic interpretation, and workflows vary by context.
 
 Also discuss organizational architecture: CRM owners own system-of-record contracts; AI platform owns model gateway/evaluation; sales ops owns qualification policy; security owns tool capabilities/data policy; product teams own user experience and business KPIs. Technical boundaries should reinforce those ownership boundaries.
 
